@@ -13,13 +13,15 @@ Most common ports used in servicedb file format for nmap
 
 ### How do I get set up? ###
 
-* Requirements:
+* Requirements: 
     Install nmap
 
 * Usage (this is how I use it):
-    `nmap -Pn --servicedb ./ports.list --max-retries 2 --max-rtt-timeout 500ms --min-parallelism 2 --max-parallelism 10 --open 127.0.0.1`
+```bash
+  nmap -Pn --servicedb ./ports.list --max-retries 2 --max-rtt-timeout 500ms --min-parallelism 2 --max-parallelism 10 --open 127.0.0.1
+  ```
 
 ### Who do I talk to? ###
 
-* Repo owner or admin:
+* Repo owner or admin: 
     `Krishna Modi <krish512@hotmail.com>`
